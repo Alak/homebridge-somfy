@@ -1,0 +1,19 @@
+   {
+       "bridge": {
+           ...
+       },
+       
+       "description": "...",
+
+       "accessories": [
+           {
+               "accessory": "SomfyAccessory",
+               "name": "Somfy Window Cover",
+               "id": "123",
+               "remote": "global_remote",
+               "gpio": 17
+           }
+       ],
+
+       "platforms":[]
+   }

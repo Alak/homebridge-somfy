@@ -1,0 +1,36 @@
+{
+    name: "homebridge-somfy",
+    version: "1.0.0",
+    description: "Homebridge Somfy Window Cover Plugin",
+    main: "index.js",
+    engines: {
+        homebridge: ">=0.3.2"
+    },
+    scripts: {
+        test: "echo "Error: no test specified" && exit 1"
+    },
+    repository: {
+        type: "git",
+        url: "git+https://github.com/Alak/homebridge-somfy.git"
+    },
+    keywords: [
+    "homebridge",
+    "homebridge-plugin",
+    "blinder",
+    "shutter",
+    "HAP",
+    "window",
+    "cover",
+    "somfy"
+    ],
+    author: "Kevin Cathaly",
+    license: "ISC",
+    bugs: {
+        url: "https://github.com/Alak/homebridge-somfy/issues"
+    },
+    homepage: "https://github.com/Alak/homebridge-somfy#readme",
+    dependencies: {
+        // python-shell: "^0.4.0",
+        // request: "^2.78.0"
+    }
+}
